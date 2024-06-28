@@ -1,0 +1,51 @@
+
+        .seat-container {
+            display: grid;
+            grid-template-columns: repeat(4, 40px);
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .seat {
+            width: 40px;
+            height: 40px;
+            background-color: pink;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .seat.selected {
+            background-color: green;
+        }
+        .seat.occupied {
+            background-color: red;
+        }
+        .seat.driver {
+            background-image: url('https://img.icons8.com/ios-filled/50/000000/steering-wheel.png');
+            background-size: cover;
+        }
+        .legend {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .legend div {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+        .legend .box {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+        .available {
+            background-color: pink;
+        }
+        .selected {
+            background-color: green;
+        }
+        .occupied {
+            background-color: red;
+        }
+    
+
