@@ -97,5 +97,5 @@ Contributions are welcome! If you have any improvements or bug fixes, feel free 
 ## Contact
 Piyush Chauhan - piyushchauhan936001@gmail.com
 
-GitHub: PiyushChauhan3
+GitHub: [PiyushChauhan3](https://github.com/PiyushChauhan3)
 
