@@ -1,0 +1,156 @@
+html {
+    line-height: 1.15;
+  }
+  body {
+    margin: 0;
+  }
+  * {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+  }
+  p,
+  li,
+  ul,
+  pre,
+  div,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  figure,
+  blockquote,
+  figcaption {
+    margin: 0;
+    padding: 0;
+  }
+  button {
+    background-color: transparent;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+  button,
+  select {
+    text-transform: none;
+  }
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    container-type: button;
+  }
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  button:-moz-focus,
+  [type="button"]:-moz-focus,
+  [type="reset"]:-moz-focus,
+  [type="submit"]:-moz-focus {
+    outline: 1px dotted ButtonText;
+  }
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  input {
+    padding: 2px 4px;
+  }
+  img {
+    display: block;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  html {
+    font-family: Noto Sans;
+    font-size: 16px;
+  }
+
+  body {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.15;
+    color: var(--dl-color-theme-neutral-dark);
+    background-color: var(--dl-color-theme-neutral-light);
+
+    fill: var(--dl-color-theme-neutral-dark);
+  }
+
+ 
+.vehicle-home {
+  height: 700px;
+  background-image: url('vehicle-home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+.vehicle-nav {
+    background-color: cadetblue;
+}
+
+.typewriter p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typewriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+    /* typing 3.5s steps(40, end) forwards, Added 'forwards' to ensure the animation stays at 100% width */
+    blink-caret .75s step-end infinite; 
+  /* direction: ltr; Ensures text direction is left-to-right */
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.home1 {
+  padding-left: 10.1em; 
+  padding-top: 1.5em;
+  display: block;
+  width: fit-content;
+}
+
+
+.vehicle-home h1 {
+  padding-top: 5em;
+  padding-left: 4em;
+}
+.book-btn{
+  padding-top: 1.5em;
+  padding-left: 10.2em;
+}
+
+.container{
+  height: 700px;
+  width: 100%;
+  background-image: url('vehicle-home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}

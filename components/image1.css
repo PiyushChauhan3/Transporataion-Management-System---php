@@ -1,0 +1,17 @@
+.image1-container {
+  display: flex;
+  position: relative;
+}
+.image1-image1 {
+  height: 4rem;
+}
+@media(max-width: 991px) {
+  .image1-image1 {
+    height: 4rem;
+  }
+}
+@media(max-width: 479px) {
+  .image1-image1 {
+    height: 3rem;
+  }
+}

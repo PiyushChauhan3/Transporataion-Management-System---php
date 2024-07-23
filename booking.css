@@ -1,0 +1,105 @@
+.booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 200px);
+    /* Adjusted to account for header and footer */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.booking-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    /* max-width: 500px; */
+}
+
+.booking-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn{
+    background-color: #F03861;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-btn{
+    background-color: #F03861;
+    color: white;
+    padding: 5px 10px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #d32f5b;
+} 
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.booking_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.bus_booking {
+    height: 46px;
+    width: 100%;
+    text-align: center;
+    line-height: 46px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bus_booking:hover, .train_booking:hover {
+    background: rgba(255, 84, 5, 0.801);
+    color: white;
+}
+
+.Booking_form {
+    /* padding: 20px; */
+    background-color: #f9f9f9;
+}
